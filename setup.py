@@ -1,10 +1,13 @@
 from setuptools import setup
 
+with open('README.md') as fp:
+    readme = fp.read()
+
 setup(
     name='mobtimer',
-    version='1.0',
-    description='A simple timer for mob programming.',
-    long_description='.',
+    version='1.0.1',
+    description='A simple timer for mob programming in your OS status bar.',
+    long_description=readme,
     long_description_content_type='text/markdown',
     author='Andrei Fokau',
     url='https://github.com/andreif/mobtimer',
