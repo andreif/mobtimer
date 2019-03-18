@@ -13,8 +13,8 @@ Currently supported operating systems:
 
 ```bash
 # Start timer for 20 minute mobs  
-$ mobtimer &
+$ nohup mobtimer &
 
 # or for 25 minute mobs
-$ mobtimer 25 &
+$ nohup mobtimer 25 &
 ```
