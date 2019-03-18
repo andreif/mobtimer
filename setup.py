@@ -5,7 +5,7 @@ with open('README.md') as fp:
 
 setup(
     name='mobtimer',
-    version='1.0.1',
+    version='1.1.2',
     description='A simple timer for mob programming in your OS status bar.',
     long_description=readme,
     long_description_content_type='text/markdown',

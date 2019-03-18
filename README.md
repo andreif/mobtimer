@@ -4,7 +4,7 @@
 
 A simple timer for mob programming in your OS status bar.
 
-![Screenshot](https://i.imgur.com/P9vzHQk.png)
+![Screenshot](https://raw.githubusercontent.com/andreif/mobtimer/master/screenshot.png)
 
 Currently supported operating systems:
 * macOS
