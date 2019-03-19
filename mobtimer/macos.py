@@ -22,6 +22,8 @@ class App(Foundation.NSObject):
     @classmethod
     def restart_timer(cls, _):
         cls.started_at = datetime.now()
+        if cls.paused_at:
+            cls.paused_at = cls.started_at
 
     @classmethod
     def timer_callback(cls, _):
