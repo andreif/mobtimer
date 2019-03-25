@@ -25,10 +25,10 @@ $ sudo pip install mobtimer
 
 ```bash
 # Start timer for 20 minute mobs  
-$ nohup mobtimer &
+$ nohup mobtimer >/tmp/nohup.out 2>&1 &
 
 # or for 25 minute mobs
-$ nohup mobtimer 25 &
+$ nohup mobtimer 25 >/tmp/nohup.out 2>&1 &
 ```
 
 ```
